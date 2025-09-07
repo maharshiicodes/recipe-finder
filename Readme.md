@@ -21,7 +21,7 @@ Simply type an ingredient or dish name into the search bar and click "Find Recip
 
 # Recipe Finder
 
-[Live Demo](https://https://recipe-finder-green-alpha.vercel.app/)
+[Live Demo](https://recipe-finder-green-alpha.vercel.app/)
 
 A responsive Recipe Finder web application built with vanilla JavaScript that integrates with a free third-party API.
 
