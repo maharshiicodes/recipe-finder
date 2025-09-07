@@ -16,9 +16,21 @@ button.addEventListener('click',async function(event){
                     instructionsHtml += `<li style="color: white;">${instruction}</li>`;
                 }
             });
+            let ingredientsHtml = '<ul>';
+            for(let i = 1; i <= 20; i++) {
+                const ingredient = element[`strIngredient${i}`];
+                const measure = element[`strMeasure${i}`];
+                if(ingredient) {
+                    ingredientsHtml += `<li style="color: white;">${ingredient} - ${measure}</li>`;
+                }
+            }
+            ingredientsHtml += '</ul>';
             recipes += `<div class="recipe">
                             <h3 style = "color: white;text-align:center">${element.strMeal}</h3>
+                            <h4>Ingredients:</h4>
+                            ${ingredientsHtml}
                             <img src="${element.strMealThumb}" alt="${element.strMeal} width="200" height="200">
+                            <h4>Instructions:</h4>
                             <ol>${instructionsHtml}</ol>
                         </div>`;
         });
