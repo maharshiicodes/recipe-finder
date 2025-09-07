@@ -19,6 +19,12 @@ Simply type an ingredient or dish name into the search bar and click "Find Recip
 - JavaScript
 - TheMealDB API
 
+# Recipe Finder
+
+[Live Demo](https://https://recipe-finder-green-alpha.vercel.app/)
+
+A responsive Recipe Finder web application built with vanilla JavaScript that integrates with a free third-party API.
+
 ## Screenshots
 
 ![Recipe Finder Screenshot](images/recipe-finder-screenshot.png)
